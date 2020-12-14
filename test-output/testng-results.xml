@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TESTng" duration-ms="32996" started-at="2020-12-13T20:29:10Z" finished-at="2020-12-13T20:29:43Z">
+    <groups>
+    </groups>
+    <test name="ReTesting" duration-ms="32996" started-at="2020-12-13T20:29:10Z" finished-at="2020-12-13T20:29:43Z">
+      <class name="SImple.LaunchAUT">
+        <test-method status="PASS" signature="LaunchAUT()[pri:0, instance:SImple.LaunchAUT@7c0c77c7]" name="LaunchAUT" duration-ms="32483" started-at="2020-12-13T20:29:10Z" finished-at="2020-12-13T20:29:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchAUT -->
+      </class> <!-- SImple.LaunchAUT -->
+    </test> <!-- ReTesting -->
+  </suite> <!-- TESTng -->
+</testng-results>

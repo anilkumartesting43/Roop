@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="TestNg(failed)">
+    <classes>
+      <class name="SImple.LaunchAUT">
+        <methods>
+          <include name="LaunchAut"/>
+        </methods>
+      </class> <!-- SImple.LaunchAUT -->
+    </classes>
+  </test> <!-- TestNg(failed) -->
+</suite> <!-- Failed suite [Suite] -->
