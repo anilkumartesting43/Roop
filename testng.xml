@@ -3,7 +3,7 @@
 <suite name="TESTng">
   <test thread-count="5" name="ReTesting">
     <classes>
-      <class name="SImple.LaunchAUT"/>
+      <class name="SImple.Salesforce"/>
     </classes>
   </test> 
 </suite> 

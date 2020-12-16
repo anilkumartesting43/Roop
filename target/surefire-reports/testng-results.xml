@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="TESTng" duration-ms="40501" started-at="2020-12-14T02:53:43Z" finished-at="2020-12-14T02:54:24Z">
+  <suite name="TESTng" duration-ms="51310" started-at="2020-12-16T09:31:42Z" finished-at="2020-12-16T09:32:34Z">
     <groups>
     </groups>
-    <test name="ReTesting" duration-ms="40501" started-at="2020-12-14T02:53:43Z" finished-at="2020-12-14T02:54:24Z">
-      <class name="SImple.LaunchAUT">
-        <test-method status="PASS" signature="LaunchAUT()[pri:0, instance:SImple.LaunchAUT@501edcf1]" name="LaunchAUT" duration-ms="40456" started-at="2020-12-14T02:53:43Z" finished-at="2020-12-14T02:54:24Z">
+    <test name="ReTesting" duration-ms="51310" started-at="2020-12-16T09:31:42Z" finished-at="2020-12-16T09:32:34Z">
+      <class name="SImple.Salesforce">
+        <test-method status="PASS" signature="LaunchAUT()[pri:1, instance:SImple.Salesforce@501edcf1]" name="LaunchAUT" duration-ms="24576" started-at="2020-12-16T09:31:42Z" finished-at="2020-12-16T09:32:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchAUT -->
-      </class> <!-- SImple.LaunchAUT -->
+        <test-method status="PASS" signature="Login()[pri:2, instance:SImple.Salesforce@501edcf1]" name="Login" duration-ms="26350" started-at="2020-12-16T09:32:07Z" finished-at="2020-12-16T09:32:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Gettext()[pri:3, instance:SImple.Salesforce@501edcf1]" name="Gettext" duration-ms="14" started-at="2020-12-16T09:32:33Z" finished-at="2020-12-16T09:32:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gettext -->
+        <test-method status="PASS" signature="CloseAUT()[pri:4, instance:SImple.Salesforce@501edcf1]" name="CloseAUT" duration-ms="326" started-at="2020-12-16T09:32:33Z" finished-at="2020-12-16T09:32:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseAUT -->
+      </class> <!-- SImple.Salesforce -->
     </test> <!-- ReTesting -->
   </suite> <!-- TESTng -->
 </testng-results>

@@ -5,7 +5,7 @@
     <classes>
       <class name="SImple.LaunchAUT">
         <methods>
-          <include name="LaunchAut"/>
+          <include name="LaunchAUT"/>
         </methods>
       </class> <!-- SImple.LaunchAUT -->
     </classes>

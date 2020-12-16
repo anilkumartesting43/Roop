@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="TESTng" duration-ms="32996" started-at="2020-12-13T20:29:10Z" finished-at="2020-12-13T20:29:43Z">
+  <suite name="Default suite" duration-ms="41668" started-at="2020-12-16T09:17:42Z" finished-at="2020-12-16T09:18:23Z">
     <groups>
     </groups>
-    <test name="ReTesting" duration-ms="32996" started-at="2020-12-13T20:29:10Z" finished-at="2020-12-13T20:29:43Z">
-      <class name="SImple.LaunchAUT">
-        <test-method status="PASS" signature="LaunchAUT()[pri:0, instance:SImple.LaunchAUT@7c0c77c7]" name="LaunchAUT" duration-ms="32483" started-at="2020-12-13T20:29:10Z" finished-at="2020-12-13T20:29:43Z">
+    <test name="Default test" duration-ms="41668" started-at="2020-12-16T09:17:42Z" finished-at="2020-12-16T09:18:23Z">
+      <class name="SImple.Salesforce">
+        <test-method status="PASS" signature="LaunchAUT()[pri:1, instance:SImple.Salesforce@553f17c]" name="LaunchAUT" duration-ms="23813" started-at="2020-12-16T09:17:42Z" finished-at="2020-12-16T09:18:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchAUT -->
-      </class> <!-- SImple.LaunchAUT -->
-    </test> <!-- ReTesting -->
-  </suite> <!-- TESTng -->
+        <test-method status="PASS" signature="Login()[pri:2, instance:SImple.Salesforce@553f17c]" name="Login" duration-ms="16599" started-at="2020-12-16T09:18:06Z" finished-at="2020-12-16T09:18:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Gettext()[pri:3, instance:SImple.Salesforce@553f17c]" name="Gettext" duration-ms="51" started-at="2020-12-16T09:18:22Z" finished-at="2020-12-16T09:18:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Gettext -->
+        <test-method status="PASS" signature="CloseAUT()[pri:4, instance:SImple.Salesforce@553f17c]" name="CloseAUT" duration-ms="1149" started-at="2020-12-16T09:18:22Z" finished-at="2020-12-16T09:18:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseAUT -->
+      </class> <!-- SImple.Salesforce -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
